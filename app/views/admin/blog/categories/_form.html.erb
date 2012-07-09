@@ -1,0 +1,21 @@
+<!--
+  @Name: admin/blog/categories/_form.html.erb
+  @Use:  This is a partial for opening form for input categories records
+  @Created date: 13-06-2012
+  @Modified Date: 05-07-2012
+  @Company:  Mindfire Solutions
+-->
+<%= form_for [:admin, @blog_category] do |f| %>
+ <%= render :partial => "/shared/admin/error_messages",
+             :locals => {
+               :object => f.object,
+               :include_object_name => true
+             } %>
+
+  <div class='field'>
+    <%= f.label :title -%>
+    <%= f.text_field :title, :class => 'larger widest' -%>
+  </div>
+
+  <%= render :partial => "/shared/admin/form_actions", :locals => { :f => f  } %>
+<% end %>

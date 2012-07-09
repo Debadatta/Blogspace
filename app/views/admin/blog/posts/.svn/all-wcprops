@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/admin/blog/posts
+END
+_sortable_list.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/admin/blog/posts/_sortable_list.html.erb
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/admin/blog/posts/edit.html.erb
+END
+_form.css.erb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/admin/blog/posts/_form.css.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/admin/blog/posts/index.html.erb
+END
+_form_part.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/admin/blog/posts/_form_part.html.erb
+END
+_teaser_part.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/admin/blog/posts/_teaser_part.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/admin/blog/posts/new.html.erb
+END
+_form.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/admin/blog/posts/_form.js.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/admin/blog/posts/_form.html.erb
+END
+_post.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/admin/blog/posts/_post.html.erb
+END

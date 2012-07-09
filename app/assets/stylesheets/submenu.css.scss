@@ -1,0 +1,32 @@
+ul.collapsible-menu li {
+    position: relative;
+}
+ul.collapsible-menu li span.arrow {
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    width: 11px;
+    height: 7px;
+    cursor: pointer;
+}
+ul.collapsible-menu li span.arrow {
+    background-image: url('icons/up.gif');
+}
+ul.collapsible-menu li.closed span.arrow {
+    background-image: url('icons/down.gif');
+}
+ul.collapsible-menu > div {
+    width: 93%;
+    margin: 0px auto;
+}
+
+.collapsible-menu {
+
+    .success-icon {
+        background :url('icons/tick.png');
+    }
+    .failure-icon {
+        background :url('icons/cross.png');
+    }
+}

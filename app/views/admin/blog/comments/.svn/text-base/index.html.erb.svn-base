@@ -1,0 +1,12 @@
+<%= render :partial => '/admin/blog/submenu' %>
+<div id='records'>
+ 
+    <% if @blog_comments.any? %>
+      <%= render :partial => "sortable_list" %>
+    <% else %>
+      <h3>
+        <%= t('.no_items_yet',
+              :type => t("admin.blog.submenu.comments.#{action_name.gsub('index', 'new')}").downcase) %>
+      </h3>
+    <% end %>
+</div>

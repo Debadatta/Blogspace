@@ -1,0 +1,3 @@
+$(function(){
+	$('#page-tabs').tabs();
+});

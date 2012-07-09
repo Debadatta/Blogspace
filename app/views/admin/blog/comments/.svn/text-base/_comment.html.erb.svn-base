@@ -1,0 +1,27 @@
+<!--
+  @Name: admin/blog/comments/_comment.html.erb
+  @Use:  This is a page for displaying comments records
+  @Created date: 13-06-2012
+  @Modified Date: 19-06-2012
+  @Company:  Mindfire Solutions
+-->
+<li class='clearfix record <%= cycle("on", "on-hover") %>' id="<%= "comment-#{comment.to_param}" -%>">
+  <span class='title'>
+    <%= comment.name %>
+    <span class="preview">  <%= truncate(comment.body, :length => 75) %></span>
+  </span>
+  <span class='actions'>
+    <%= link_to image_tag("icons/application_go.png"),
+                blog_post_url(comment.post, :anchor => "comment-#{comment.to_param}"),
+                :title => t('.view_live_html'),
+                :target => "_blank" unless comment.is_unmoderated? %>
+    <%= link_to image_tag('icons/zoom.png'), admin_blog_comment_path(comment),
+                :title => t('.read') %>
+    <%= link_to image_tag("icons/cross.png"),
+                rejected_admin_blog_comment_path(comment, :return_to => request.path.split('/').last.gsub(/^comments$/, 'index')),
+                :title => t('.reject') unless comment.is_rejected? %>
+    <%= link_to image_tag("icons/tick.png"),
+                approved_admin_blog_comment_path(comment, :return_to => request.path.split('/').last.gsub(/^comments$/, 'index')),
+                :title => t('.approve') unless comment.is_approved? %>
+  </span>
+</li>

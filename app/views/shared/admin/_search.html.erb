@@ -1,0 +1,12 @@
+<!--
+  @Name: shared/admin/_search.html.erb
+  @Use:  This is a page for displaying input search field
+  @Created date: 13-06-2012
+  @Modified Date: 19-06-2012
+  @Company:  Mindfire Solutions
+-->
+<form method='GET' action='<%= url %>' class='search-form'>
+  <input id='search' name='search' size='22' type='search' value='<%= params[:search] %>' />
+  <% if params[:wymeditor].presence %><input name='wymeditor' value='true' type='hidden'><% end %>
+  <%= submit_tag t('button_text', :scope => 'shared.admin.search'), :name => nil %>
+</form>

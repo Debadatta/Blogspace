@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/app/models
+END
+setting.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/app/models/setting.rb
+END
+blog_category.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/app/models/blog_category.rb
+END
+categorization.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/app/models/categorization.rb
+END
+.gitkeep
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/app/models/.gitkeep
+END
+blog_comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/app/models/blog_comment.rb
+END
+blog_post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/app/models/blog_post.rb
+END

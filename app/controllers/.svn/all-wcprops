@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/controllers
+END
+.gitkeep
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/controllers/.gitkeep
+END
+application_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/controllers/application_controller.rb
+END
+blog_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/controllers/blog_controller.rb
+END

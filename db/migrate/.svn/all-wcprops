@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate
+END
+20120618104134_add_index_in_blog_comments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate/20120618104134_add_index_in_blog_comments.rb
+END
+20120627063009_acts_as_taggable_on_migration.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate/20120627063009_acts_as_taggable_on_migration.rb
+END
+20120629113457_add_slug_to_mcms_blog_category.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate/20120629113457_add_slug_to_mcms_blog_category.rb
+END
+20120704183343_create_ckeditor_assets.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate/20120704183343_create_ckeditor_assets.rb
+END
+20120612055745_create_categorizations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate/20120612055745_create_categorizations.rb
+END
+20120608072027_create_blog_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate/20120608072027_create_blog_posts.rb
+END
+20120629065434_add_slug_to_blog_post.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate/20120629065434_add_slug_to_blog_post.rb
+END
+20120618105511_add_custom_index_in_mcms_blog_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate/20120618105511_add_custom_index_in_mcms_blog_posts.rb
+END
+20120608072013_create_blog_comments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate/20120608072013_create_blog_comments.rb
+END
+20120618105246_add_custom_index_in_mcms_blog_comments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate/20120618105246_add_custom_index_in_mcms_blog_comments.rb
+END
+20120608071959_create_blog_categories.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate/20120608071959_create_blog_categories.rb
+END
+20120619094143_create_settings.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/db/migrate/20120619094143_create_settings.rb
+END

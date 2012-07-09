@@ -1,0 +1,17 @@
+
+<%= @category.title %>
+
+
+  <% if @blog_posts.any? %>
+    <section id="blog-posts">
+      <%= render :partial => "/blog/shared/post", :collection => @blog_posts %>
+      <%= will_paginate @blog_posts %>
+    </section>
+  <% else %>
+    <p>
+      <%= t('.no_posts') %>
+    </p>
+  <% end %>
+
+
+

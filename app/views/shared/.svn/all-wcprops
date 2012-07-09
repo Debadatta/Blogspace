@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared
+END
+_header.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/_header.html.erb
+END
+_site_bar.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/_site_bar.html.erb
+END
+_javascripts.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/_javascripts.html.erb
+END
+_stylesheets.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/_stylesheets.html.erb
+END
+_footer.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/_footer.html.erb
+END
+_head.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/_head.html.erb
+END
+_menu.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/_menu.html.erb
+END

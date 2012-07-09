@@ -1,0 +1,17 @@
+<!--
+  @Name: blog/posts/archive.html.erb
+  @Use:  This is a page for displaying posts records
+  @Created date: 26-06-2012
+  @Modified Date: 28-06-2012
+  @Company:  Mindfire Solutions
+-->
+<div class="module-archives module">
+  <% if @blog_posts.any? %>
+    <section id="blog_posts">
+      <%= render :partial => "/blog/shared/post", :collection => @blog_posts %>
+    </section>
+  <% else %>
+    <p><%= t('.no_blog_articles_posted', :date => @archive_date.strftime('%B %Y')) %></p>
+  <% end %>
+</div>
+  

@@ -1,0 +1,19 @@
+<!--
+  @Name: blog/shared/_categories.html.erb
+  @Use:  This is a page for displaying categories records
+  @Created date: 13-06-2012
+  @Modified Date: 27-06-2012
+  @Company:  Mindfire Solutions
+-->
+<div class="module-categories module">
+  <% if @blog_categories.any? %>
+    <h2><%= 'Categories' %></h2>
+    <ul id='categories'>
+      <% @blog_categories.each do |category| %>
+        <li<%= " class='selected'" if @category.present? and @category.id == category.id %>>
+          <%= link_to "#{category.title} (#{category.post_count})", blog_category_url(category) %>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+</div>

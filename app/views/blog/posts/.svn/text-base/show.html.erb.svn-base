@@ -1,0 +1,64 @@
+<!--
+  @Name: blog/posts/show.html.erb
+  @Use:  This is a page for displaying posts records
+  @Created date: 13-06-2012
+  @Modified Date: 13-06-2012
+  @Company:  Mindfire Solutions
+-->
+<div class="post-left-content">
+<%# content_for :body_content_left do %>
+  <div id="show-blog-post">
+    <%= render 'post' %>
+  </div>
+
+<% if BlogPost::CommentSetting.is_comments_allowed? %>
+    <aside id="comments">
+      <h2><%= t('.comments.title') %></h2>
+      <% if (comments = @blog_post.comments.where(:state => 'approved')).any? %>
+        <%= render :partial => "comment", :collection => comments %>
+      <% else %>
+        <p>
+          <%= t('blog.shared.comments.none') %>.
+        </p>
+      <% end %>
+
+      <% flash.each do |key, value| %>
+        <div id='flash' class="flash flash-<%= key %>">
+          <%= value %>
+        </div>
+      <% end %>
+
+      <h2><%= t('.comments.add') %></h2>
+      <%= form_for [:blog_post, BlogComment.new] do |f| %>
+
+         <%= render :partial => "/shared/admin/error_messages",
+                   :locals => {
+                     :object => f.object,
+                     :include_object_name => true
+                   } %>
+      
+        <div class='field'>
+          <%= f.label :name %>
+          <%= f.text_field :name %>
+        </div>
+      
+        <div class='field'>
+          <%= f.label :email %>
+          <%= f.email_field :email %>
+        </div>
+
+        <div class='field message-field'>
+          <%= f.label :message %>
+          <%= f.text_area :body, :rows => 6 %>
+        </div>
+
+        <div class='field form-actions'>
+          <%= f.submit 'Submit' %>
+        </div>
+      <% end %>
+    </aside>
+  <% end %>
+  
+<% #end %>
+</div>
+

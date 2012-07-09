@@ -1,0 +1,29 @@
+<!--
+  @Name: admin/blog/posts/index.html.erb
+  @Use:  This is a page for displaying posts records
+  @Created date: 13-06-2012
+  @Modified Date: 13-06-2012
+  @Company:  Mindfire Solutions
+-->
+<%= render :partial => '/admin/blog/submenu' %>
+<% flash.each do |key, value| %>
+ <div id='flash' class="flash flash_<%= key %>">
+   <%= value %>
+ </div>
+<% end %>
+<div id='records'>
+ 
+    <% if @blog_posts.any? %>
+      <%= will_paginate @blog_posts %>
+
+      <%= render :partial => "sortable_list" %>
+
+      <%= will_paginate @blog_posts %>
+    <% else %>
+      <p>
+        <strong>
+          <%= t('.no_items_yet', :create => t('admin.blog.submenu.posts.new')) %>
+        </strong>
+      </p>
+    <% end %>
+</div>

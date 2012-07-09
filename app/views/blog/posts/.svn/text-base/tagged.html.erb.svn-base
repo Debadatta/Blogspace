@@ -1,0 +1,20 @@
+<!--
+  @Name: blog/posts/tagged.html.erb
+  @Use:  This is a page for displaying tagged posts records
+  @Created date: 13-06-2012
+  @Modified Date: 27-06-2012
+  @Company:  Mindfire Solutions
+-->
+<%= "#{t('.posts_tagged')} &#8220;#{@tag_name.titleize}&#8221;".html_safe -%>
+
+
+  <% if @blog_posts.any? %>
+    <section id="blog_posts">
+      <%= render :partial => "/blog/shared/post", :collection => @blog_posts %>
+      <%= will_paginate @blog_posts %>
+    </section>
+  <% else %>
+    <p><%= t('.no_blog_articles_yet') %></p>
+  <% end %>
+
+

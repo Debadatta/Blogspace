@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/admin
+END
+_continue_editing.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/admin/_continue_editing.html.erb
+END
+_error_messages.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/admin/_error_messages.html.erb
+END
+_autocomplete.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/admin/_autocomplete.html.erb
+END
+_form_actions.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/admin/_form_actions.html.erb
+END
+_search.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog/app/views/shared/admin/_search.html.erb
+END

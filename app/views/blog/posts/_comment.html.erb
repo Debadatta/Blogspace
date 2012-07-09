@@ -1,0 +1,17 @@
+<!--
+  @Name: blog/posts/_comment.html.erb
+  @Use:  This is a page for displaying posts comment records
+  @Created date: 26-06-2012
+  @Modified Date: 26-06-2012
+  @Company:  Mindfire Solutions
+-->
+<article class='blog_comment_message' id='<%= "comment-#{comment.to_param}" %>'>
+  <%= image_tag 'rails.png', :alt => comment.name, :class => 'avatar' %>
+  <%= comment.body.to_s %>
+  <footer class='blog_comment_author'>
+    <p>
+      <%= t('blog.posts.comments.by', :who => comment.name) %>,
+      <%= t('blog.posts.comments.time_ago', :time => time_ago_in_words(comment.created_at)) %>
+    </p>
+  </footer>
+</article>

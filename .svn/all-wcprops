@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/SVNHOME/!svn/ver/14745/mcms/trunk/mcms_gems/mcms_blog
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/Rakefile
+END
+README.rdoc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/README.rdoc
+END
+mcms_blog.gemspec
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/mcms_blog.gemspec
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/.gitignore
+END
+Gemfile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/Gemfile
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SVNHOME/!svn/ver/14893/mcms/trunk/mcms_gems/mcms_blog/MIT-LICENSE
+END

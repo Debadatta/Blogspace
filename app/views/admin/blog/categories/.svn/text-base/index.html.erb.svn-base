@@ -1,0 +1,23 @@
+<!--
+  @Name: admin/blog/categories/index.html.erb
+  @Use:  This is a page for displaying categories records
+  @Created date: 13-06-2012
+  @Modified Date: 13-06-2012
+  @Company:  Mindfire Solutions
+-->
+<%=render :partial=>'/admin/blog/submenu' %>
+<div id='records'>
+    <% if @blog_categories.any? %>
+      <%= will_paginate @blog_categories %>
+
+      <%= render :partial => "sortable_list" %>
+
+      <%= will_paginate @blog_categories %>
+    <% else %>
+      <p>
+        <strong>
+          <%= t('.no_items_yet', :create => t('admin.blog.submenu.categories.new')) %>
+        </strong>
+      </p>
+    <% end %>
+</div>

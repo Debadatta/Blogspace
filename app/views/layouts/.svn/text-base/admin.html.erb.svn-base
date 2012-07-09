@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>McmsBlog</title>
+
+  <link rel="icon" type="image/png" href="/favicon.ico" />
+  <%= render 'layouts/stylesheets' %>  
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application", 'admin/blog/mcms-blog-submenu.js' %>
+  <%= render :partial => 'layouts/javascript' %>
+
+  <%= csrf_meta_tags %>
+
+
+</head>
+<body>
+  <div id="page-container" >
+    <div class="body-containt">
+      <%= yield %>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+
+</body>
+</html>

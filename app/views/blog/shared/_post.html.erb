@@ -1,0 +1,34 @@
+<!--
+  @Name: blog/shared/_post.html.erb
+  @Use:  This is a page for displaying posts records
+  @Created date: 26-06-2012
+  @Modified Date: 28-06-2012
+  @Company:  Mindfire Solutions
+-->
+<% if post.live? %>
+<h2 class="date-header"><%= post.published_at.strftime("%B %d, %Y") %> </h2>
+<div class="entry">
+  <h3 class="entry-header"><%=  post.title %></h3>
+  <div class="entry-content">
+    <div class="entry-body">
+      <p>
+        <% post_body = post.body.html_safe %>
+        <%= truncate(post_body, :length => 300, :separator => ' ') %>
+      </p>
+      <p>
+        <%= link_to t('blog.shared.posts.read_more'), blog_post_url(post) %>
+      </p>
+      <p class="entry-footer">
+        <span class="post-footers"><%= ( post.author.present?)?  "#{t('blog.posts.show.by')} #{post.author.username}" :  'Unknown'  %></span>
+        <span class="separator">|
+          <% if post.comments.any? %>
+             (<%= pluralize(post.comments.approved.count, t('blog.shared.comments.singular')) %>)
+          <% else %>
+                (<%= t('blog.shared.comments.none') %>)
+          <% end %>
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+<% end %>

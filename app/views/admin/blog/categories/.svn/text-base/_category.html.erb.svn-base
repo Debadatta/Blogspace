@@ -1,0 +1,20 @@
+<li class='clearfix record <%= cycle("on", "on-hover") %>' id="<%= dom_id(category) -%>">
+  <span class='title'>
+    <%= category.title %>
+    <span class="preview">&nbsp;</span>
+  </span>
+
+  <span class='actions'>
+
+    <%= link_to image_tag("icons/application_edit.png"), edit_admin_blog_category_path(category),
+         :title => 'Edit' %>
+    <%= link_to image_tag("icons/delete.png"), admin_blog_category_path(category),
+        :class => "cancel confirm-delete",
+        :title => 'Delete',
+        :method => :delete,
+        :confirm => "Are you sure to delete ?" %>
+    <%= link_to image_tag("icons/application_go.png"), blog_category_path(category),
+        :title => 'Show' %>
+  </span>
+  
+</li>

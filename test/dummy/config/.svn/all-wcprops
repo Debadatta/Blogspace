@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/SVNHOME/!svn/ver/14892/mcms/trunk/mcms_gems/mcms_blog/test/dummy/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/SVNHOME/!svn/ver/14892/mcms/trunk/mcms_gems/mcms_blog/test/dummy/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/SVNHOME/!svn/ver/14892/mcms/trunk/mcms_gems/mcms_blog/test/dummy/config/database.yml
+END
+application.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SVNHOME/!svn/ver/14892/mcms/trunk/mcms_gems/mcms_blog/test/dummy/config/application.rb
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/SVNHOME/!svn/ver/14892/mcms/trunk/mcms_gems/mcms_blog/test/dummy/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SVNHOME/!svn/ver/14892/mcms/trunk/mcms_gems/mcms_blog/test/dummy/config/environment.rb
+END

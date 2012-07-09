@@ -1,0 +1,9 @@
+<%
+  # Collect the root items.
+  # Refinery::Menu is smart enough to remember all of the items in the original collection.
+%>
+<nav>
+  <ul>
+    <%=link_to 'home', ''%>
+  </ul>
+</nav>

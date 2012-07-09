@@ -1,0 +1,91 @@
+<!--
+  @Name: admin/blog/post/_form.html.erb
+  @Use:  Opening form for taking input for posts
+  @Created date: 08-06-2012
+  @Modified Date: 12-06-2012
+  @Company:  Mindfire Solutions
+-->
+<%=render 'form.js'%>
+<%= form_for [:admin, @blog_post] do |f| %>
+ <%= render :partial => "/shared/admin/error_messages",
+             :locals => {
+               :object => f.object,
+               :include_object_name => true
+             } %>
+  <div class='field'>
+    <%= f.label :title -%>
+    <%= f.text_field :title, :class => 'larger widest' %>
+  </div>
+
+  <div class='field'>
+    <div id='page-tabs' class='clearfix ui-tabs ui-widget ui-widget-content ui-corner-all form-tabs'>
+      
+      <ul id='page-parts'>
+        <li class='ui-state-default ui-state-active'>
+          <%= link_to "Body", "#page-part-body" %>
+          
+        </li>
+        <li class='ui-state-default'>
+          <%= link_to "Teaser", "#page-part-teaser" %>
+          
+        </li>
+      </ul>
+
+      <div id="page-part-body">
+        <%= f.cktext_area :body, :input_html => { :value=> @blog_post.body }, :toolbar => 'Full', :width => 900, :height => 300 %>
+      </div>
+      <div id="page-part-teaser">
+        
+        <%= f.cktext_area :cached_slug, :input_html =>  { :value=> @blog_post.cached_slug }, :toolbar => 'Full', :width => 900, :height => 300 %>
+      </div>
+    </div>
+  </div>
+
+  <div class='field'>
+    <%= f.label :tag_list, "Tags" -%>
+    <%= f.text_field :tag_list, :class => 'larger' -%>
+  </div>
+
+  <div id='more-options-field'>
+    <p>
+      <%= link_to t('.advanced_options'), "javascript:void(0);",
+                  :id => 'toggle-advanced-options',
+                  :title => t('.toggle_advanced_options') %>
+    </p>
+    <span id='draft-field'>
+      <%= f.check_box :draft %>
+      <%= f.label :draft, t('.save_as_draft'), :class => "stripped" %>
+    </span>
+  </div>
+  <div id='more-options' style="">
+    <div class="hemisquare">
+      <h3></h3>
+      <ul class='blog-categories'>
+        <% @blog_categories.each do |category| %>
+          <li>
+             <%= check_box_tag 'blog_post[category_ids][]', category.id,
+                               @blog_post.categories.include?(category),
+                               :id => (id="blog_post_category_ids_#{category.id}") %>
+             <%= label_tag 'blog_post[category_ids][]', category.title,
+                           :class => 'stripped',
+                           :for => id %>
+          </li>
+        <% end %>
+      </ul>
+      <h3><%= t('.published_at') %></h3>
+      <%= f.datetime_select :published_at %>
+
+      <div class='field'>
+        <span class='label-with-help'>
+          <%= f.label :custom_url, t('.custom_url') %>
+        </span>
+        <%= f.text_field :custom_url, :class => "widest" %>
+      </div>
+
+    </div>
+    <div class='hemisquare right-side'>
+      
+    </div>
+  </div>
+ <%= render :partial => "/shared/admin/form_actions", :locals => { :f => f  } %>
+<% end %>
